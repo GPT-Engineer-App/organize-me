@@ -1,5 +1,5 @@
 [run]
-build = "npm run build"
+build = "npm run predeploy"
 test = "npm run test"
 lint = "npm run lint"
 
