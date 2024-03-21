@@ -23,7 +23,7 @@ const About = () => {
   return (
     <Main
       title="About"
-      description="Learn  D'Angelo"
+      description="Learn"
     >
       <article className="post markdown" id="about">
         <header>
