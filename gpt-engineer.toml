@@ -1,11 +1,11 @@
 [run]
-build = "npm run predeploy"
+build = "npm run build"
 test = "npm run test"
 lint = "npm run lint"
 
 [paths]
-base = "./build"  # base directory to operate in (for monorepos)
-src = "./src"        # source directory (under the base directory) from which context will be retrieved
+dist = "./build"
+src = "./src"
 
-[gptengineer-app]  # this namespace is used for gptengineer.app
-project_id = "cea1b28d-2d7b-400e-a849-0ff8e2bf7b23"
+[gptengineer-app]
+project_id = "547db389-391f-4a66-8507-f4970012ebf8"
